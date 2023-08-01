@@ -1,0 +1,209 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "NorthwindContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "Data",
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Northwind.WebApi.Model",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[AdmUsers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Adr_Cities]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Adr_Countries]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Adr_PostCodes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Categories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Customers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Employees]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Order Details]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Orders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Products]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RefreshToken]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Role]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Shippers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Suppliers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Title]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SelectOrderPagindView]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[AddPostCode]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[GetAllCityByCountry]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[GetAllCountrys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[GetAllPostCodesByCountryCode]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[GetEmployeeExist]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[GetEmployeesForReportsTo]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[GetTitles]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[InsRefreshToken]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Logone]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[RemoveCategoryById]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[RemoveEmployeesById]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[RemoveSupplierById]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectAllPostCodesByCountryCode]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectCategoryPaging]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectCustomerPaging]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectEmployeesAll]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectEmployeesPaging]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectOrdersDetail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectOrdersPaging]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectProductPaging]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectRefreshTokenByToken]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectSuppliersPaging]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectUserPaging]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UserByEmail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UserById]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UserChengePersonalInfo]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UserEmailExist]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": "win-1bo47qn6rmu\\sqlexpress.Northwind.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
